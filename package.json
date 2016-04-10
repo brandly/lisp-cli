@@ -1,0 +1,30 @@
+{
+  "name": "brandly-lisp-cli",
+  "version": "0.6.0",
+  "description": "small cli for brandly-lisp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandly/lisp-cli.git"
+  },
+  "author": "Matthew Brandly <brandly13@gmail.com> (http://brandly.me/)",
+  "license": "MIT",
+  "bin": {
+    "brandly-lisp": "index.js"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/brandly/lisp-cli/issues"
+  },
+  "homepage": "https://github.com/brandly/lisp-cli#readme",
+  "dependencies": {
+    "brandly-lisp": "0.6.0",
+    "meow": "3.7.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
