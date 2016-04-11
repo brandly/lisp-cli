@@ -3,4 +3,5 @@
     n
     (* n (factorial (- n 1))))))
 
-(factorial 5)
+(print (factorial 5))
+

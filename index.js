@@ -20,7 +20,7 @@ if (cli.input.length) {
       console.log('Error reading file', cli.input[0], err)
     } else {
       var lisp = new Lisp()
-      console.log(lisp.exec(data.toString()))
+      lisp.exec(data.toString())
     }
   })
 } else {
