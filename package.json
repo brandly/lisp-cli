@@ -25,6 +25,7 @@
     "meow": "3.7.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "repl.js"
   ]
 }
