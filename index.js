@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-'use strict';
+'use strict'
 const path = require('path')
 const fs = require('fs')
 const meow = require('meow')
@@ -24,6 +24,5 @@ if (cli.input.length) {
     }
   })
 } else {
-  // TODO: run the REPL
-  console.log('$ brandly-lisp --help')
+  require('./repl')
 }
