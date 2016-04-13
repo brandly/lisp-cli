@@ -35,5 +35,5 @@ function handleResult(result) {
   }
 }
 
-write(package.name + ' v' + package.version + '\n');
+write('brandly-lisp v' + package.version + '\n');
 writePrompt();
