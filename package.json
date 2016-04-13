@@ -1,6 +1,6 @@
 {
   "name": "brandly-lisp-cli",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "small cli for brandly-lisp",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/brandly/lisp-cli#readme",
   "dependencies": {
-    "brandly-lisp": "0.8.1",
+    "brandly-lisp": "0.8.2",
     "meow": "3.7.0"
   },
   "files": [
